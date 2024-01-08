@@ -67,8 +67,9 @@ body{
 .discount{
     width: 50%;
     max-width: 800px;
-    margin: 120px auto 0 auto;
+    margin: 120px auto 120 auto;
     text-align: center;
+
 }
 .discount-content *{
   margin-bottom: 0;
@@ -99,9 +100,14 @@ body{
     font-weight: 700;
     line-height: normal;
 }
-.discount .discount-content img{
+.dis-img{
     margin-top: 48px;
     max-width: 802px;
+    margin:48px auto 48px auto;
+}
+.dis-img img{
+    width: 100%;
+    
 }
 /* Party section */
 #party{
@@ -407,14 +413,14 @@ margin-top: 48px;
     font-weight: 400;
 }
 .coming-image{
-    max-width: 460px;
-    max-height: 460px;
-    border-radius: 463px;
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
     border: 15px solid #F00;
 }
 .coming-image img{
     width: 80%;
-    padding: 44px;
+    padding: 10%;
 }
 .coming-lower{
     max-width: 275px;
@@ -477,6 +483,9 @@ margin-top: 48px;
     margin-left: auto;
     position: relative;
 }
+.holiday-area .img-area1 img{
+    width: 100%;
+}
 .img-area1::before{
     content: "";
     background-image: url("../images/Group\ 44.png");
@@ -488,10 +497,15 @@ margin-top: 48px;
     z-index: 1;
     background-repeat: no-repeat;
     background-position: left;
+    max-width: 280px;
 }
 .holiday-area .img-area2{
     display: flex;
     position: relative;
+    max-width: 1320px;
+}
+.holiday-area .img-area2 img{
+    width: 100%;
 }
 .img-area2::before{
     content: "";
