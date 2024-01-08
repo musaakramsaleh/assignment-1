@@ -1,3 +1,4 @@
+/* common css */
 body{
     margin: 0;
     padding: 0;
@@ -11,6 +12,7 @@ body{
     max-width: 1320px;
     margin:50px auto;
 }
+/* Header and banner area */
 .header-item{
     background-image: url("../images/banner-image.png");
     background-position: center;
@@ -61,6 +63,7 @@ body{
     text-align: center;
     margin: 0 auto;
 }
+/* Discount section */
 .discount{
     width: 50%;
     max-width: 800px;
