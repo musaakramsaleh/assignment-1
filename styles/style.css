@@ -321,7 +321,6 @@ margin-top: 48px;
 }
 .footer-area{
     width:83%;
-    max-width: 1320px;
     margin: 120px auto 0 auto;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -393,6 +392,7 @@ margin-top: 48px;
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
+    gap:10px;
 }
 .coming-text{
     max-width: 390px;
