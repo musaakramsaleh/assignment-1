@@ -101,6 +101,7 @@ body{
 }
 .discount .discount-content img{
     margin-top: 48px;
+    max-width: 802px;
 }
 /* Party section */
 #party{
