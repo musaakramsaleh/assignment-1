@@ -292,6 +292,7 @@ body{
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
+    width: 67.5%;
 }
 .newsletter-content form input{
 }
@@ -304,6 +305,7 @@ body{
     font-weight: 600;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
+    width: 32.5%;
 }
 .newsletter-content form{
 display:flex;
