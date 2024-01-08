@@ -9,18 +9,19 @@ body{
 }
 .container{
     width:83%;
-    max-width: 1320px;
+    /* max-width: 1320px; */
     margin:50px auto;
 }
 /* Header and banner area */
 .header-item{
     background-image: url("../images/banner-image.png");
-    background-position: center;
-    background-size: cover;
-    height: 600px;
-    text-align: center;
     position: relative;
+    height: 700px;
+    background-size: cover;
+    border-radius: 15px;
+    background-position: center;
 }
+
 .header-item::before{
     position: absolute;
     content: "";
@@ -113,7 +114,10 @@ body{
 #party{
     background-image: url("../images/Vectorrr.png");
     position: relative;
-    height: 600px;
+    height: 700px;
+    background-size: cover;
+    border-radius: 15px;
+    background-position: center;
 }
 #party::before{
     position: absolute;
@@ -126,15 +130,18 @@ body{
     opacity: 1;
     z-index: 0;
     border-radius: 15px;
+    
 }
 .party-item{
     display: flex;
     margin-top: 68px;
     position: relative;
     z-index: 1;
-    gap: 20px;
-    justify-content: center;
-    
+    /* gap: 20px; */
+    /* justify-content: center; */
+    padding-top: 68px;
+    padding-bottom: 140px;
+    justify-content: space-around;
 }
 .party-content h3{
     color: #FFF;
@@ -169,7 +176,7 @@ body{
 } 
 .party-image{
     max-width:320px;
-    margin-top: 68px;
+    margin-top: 68px; 
 }
 .party-image img{
     width: 100%;
@@ -213,7 +220,7 @@ body{
     margin-top: 24px;
 }
 .port-img{
-    max-width: 424px;
+    width: 32%;
 }
 .port-img img{
     width: 100%;
@@ -382,7 +389,7 @@ margin-top: 48px;
 /* Coming soon area */
 .coming-soon-content{
     display: flex;
-    justify-content: space-between;
+    gap: 70px;
 }
 .coming-text{
     max-width: 390px;
@@ -502,7 +509,7 @@ margin-top: 48px;
 .holiday-area .img-area2{
     display: flex;
     position: relative;
-    max-width: 1320px;
+    width: 83;
 }
 .holiday-area .img-area2 img{
     width: 100%;
@@ -517,5 +524,5 @@ margin-top: 48px;
     right: 0;
     z-index: 1;
     background-repeat: no-repeat;
-    
+ 
 }
