@@ -102,6 +102,7 @@ body{
 .discount .discount-content img{
     margin-top: 48px;
 }
+/* Party section */
 #party{
     background-image: url("../images/Vectorrr.png");
     position: relative;
@@ -166,6 +167,7 @@ body{
 .party-image img{
     width: 100%;
 }
+/* Venue area */
 .venue{
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     border-radius: 20px;
@@ -197,6 +199,7 @@ body{
     font-size: 20px;
     font-weight: 700;
 }
+/* Portfolio area */
 .port-1st{
     display: flex;
     gap: 24px;
@@ -239,6 +242,7 @@ body{
 .portfolio-content *{
     margin-bottom: 0;
 }
+/* Newsletter area */
 .newsletter{
     background: rgba(255, 0, 0, 0.05);
     border-radius: 16px;
@@ -295,6 +299,7 @@ max-width: 648px;
 justify-content: center;
 margin-top: 48px;
 }
+/* Footer area */
 .footer{
     background-color:#070211;
 }
@@ -367,6 +372,7 @@ margin-top: 48px;
     border: none;
     background-color: transparent;
 }
+/* Coming soon area */
 .coming-soon-content{
     display: flex;
     justify-content: space-between;
@@ -429,6 +435,7 @@ margin-top: 48px;
     font-weight: 400;
     margin-bottom: 60px;
 }
+/* Holiday section */
 .holiday-area{
     margin-top:120px;
 }
