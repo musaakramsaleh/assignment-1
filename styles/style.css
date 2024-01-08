@@ -9,60 +9,58 @@ body{
 }
 .container{
     width:83%;
-    /* max-width: 1320px; */
+    max-width: 1320px; 
     margin:50px auto;
 }
-/* Header and banner area */
-.header-item{
+/* Header-section */
+.banner-area{
     background-image: url("../images/banner-image.png");
-    position: relative;
-    height: 700px;
     background-size: cover;
-    border-radius: 15px;
     background-position: center;
+    height: 600px;
+    position: relative;
+    border-radius: 15px;
 }
-
-.header-item::before{
-    position: absolute;
+.banner-area::after{
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     content: "";
     top: 0;
-    right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    opacity: 0.5;
+    right: 0;
     z-index: 0;
+    position:absolute;
     border-radius: 15px;
 }
-.header-item h3{
+.banner-content{
+    max-width: 632px;
+    z-index: +1;
     position: relative;
-    padding-top: 177px;
-    color: #FFF;
+    padding: 177px auto;
     text-align: center;
+    padding-top: 177px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.banner-area p{
+    color: #FFF;
     font-family: Merriweather;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    z-index: 1;
+    margin-bottom: -50px;
+    
 }
-.header-item h1{
+.banner-content h2{
     color: #FFF;
-   text-align: center;
-   font-family: Merriweather;
-   font-size: 72px;
-   font-style: normal;
-   font-weight: 900;
-   line-height: 95px; /* 131.944% */
-   position: relative;
-   z-index: 1;
-   margin-top: 16px;
-}
-.header-content *{
-    max-width: 632px;
-    width: 83%;
-    text-align: center;
-    margin: 0 auto;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px; 
+    margin-bottom: 0;
+    
 }
 /* Discount section */
 .discount{
@@ -111,75 +109,55 @@ body{
     
 }
 /* Party section */
-#party{
+.party-main{
     background-image: url("../images/Vectorrr.png");
-    position: relative;
-    height: 700px;
     background-size: cover;
-    border-radius: 15px;
     background-position: center;
+    height: 600px;
+    position: relative;
+    display: flex;
+    gap: 40px;
+    border-radius: 15px;
 }
-#party::before{
-    position: absolute;
+.party-main::after{
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     content: "";
     top: 0;
-    right: 0;
     bottom: 0;
     left: 0;
-    opacity: 1;
+    right: 0;
     z-index: 0;
+    position:absolute;
     border-radius: 15px;
-    
 }
-.party-item{
-    display: flex;
-    margin-top: 68px;
+.party-content{
     position: relative;
     z-index: 1;
-    /* gap: 20px; */
-    /* justify-content: center; */
-    padding-top: 68px;
-    padding-bottom: 140px;
-    justify-content: space-around;
+    max-width: 700px;
+    margin-left: 9%;
+    margin-bottom: 142px;
+    margin-top: 60px;
 }
-.party-content h3{
+.party-content h2{
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
+    font-style: normal;
     font-weight: 900;
+    line-height: 88px; /* 137.5% */
     letter-spacing: 7.04px;
-    margin-bottom: 0;
-}
-.party-content{
-    max-width: 700px;
-    margin-top: 75px;
 }
 .party-content p{
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
-    margin-top: 24px;
-    margin-bottom: 0;
 }
-.party-content button{
-    background-color: transparent;
-    border: none;
-    color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 700;
-    margin-left: 20px;
-    margin-top: 48px;
-} 
-.party-image{
+.party-img{
     max-width:320px;
-    margin-top: 68px; 
-}
-.party-image img{
-    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: 68px;
 }
 /* Venue area */
 .venue{
@@ -248,7 +226,7 @@ body{
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px
+    max-width: 896px;
 }
 .portfolio{
     margin-top: 120px;
@@ -321,6 +299,7 @@ margin-top: 48px;
 }
 .footer-area{
     width:83%;
+    max-width: 1320px;
     margin: 120px auto 0 auto;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -335,8 +314,8 @@ margin-top: 48px;
 }
 .foot-lower{
     color: white;
-    display: flex;
-    justify-content: space-between;
+    display: flex; 
+    justify-content: space-between; 
 }
 .footer-top p{
     max-width: 375px;
@@ -361,8 +340,15 @@ margin-top: 48px;
 .footer-top ul li span{
     margin-bottom: 3px;
 }
+.footer-content ul li a{
+  text-decoration: none;
+  color: #FFF;
+}
+.footer-top-2 img{
+    max-width: 24px;
+    margin-right: ;
+}
 .footer-img{
-    margin: 48px auto;
     text-align: center;
 }
 .footer-img img{
